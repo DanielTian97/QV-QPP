@@ -391,6 +391,12 @@ public class TRECDLQPPEvaluatorWithGenVariants {
             case "dragon_2hop":
                 variantFile = Constants.QPP_JM_VARIANTS_FILE_DRAGONR;
                 break;
+            case "tct":
+                variantFile = Constants.QPP_JM_VARIANTS_FILE_TCT;
+                break;
+            case "tct_2hop":
+                variantFile = Constants.QPP_JM_VARIANTS_FILE_TCTR;
+                break;
             default:
                 variantFile = Constants.QPP_JM_VARIANTS_FILE_SBERT;
                 variantQidFile = Constants.QPP_JM_VARIANTS_QID_FILE_SBERT;
